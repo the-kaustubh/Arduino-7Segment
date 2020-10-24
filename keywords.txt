@@ -1,5 +1,5 @@
-SevenSegment  KEYWORD1  SSD
-SSD           KEYWORD1  SSD
-reset         KEYWORD2  SSD
-isMaxterm     KEYWORD2  SSD
-displayNibble KEYWORD2  SSD
+SevenSegment	KEYWORD1	SSD
+SSD	KEYWORD1	SSD
+reset	KEYWORD2	SSD
+isMaxterm	KEYWORD2	SSD
+displayNibble	KEYWORD2	SSD
