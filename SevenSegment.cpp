@@ -45,7 +45,7 @@ bool SSD::isMaxterm(int num, int function) {
 void SSD::displayNibble(int num) {
   int i;
   for( i = 0; i < 7; i++) {
-    if(isMaxterm(num, i)) {
+    if(isMaxterm(num & 0xf, i)) {
       digitalWrite(
       SSD::disp_pins[i],
       (SSD::type) ? 0 : 1
