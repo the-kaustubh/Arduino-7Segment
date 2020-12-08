@@ -5,8 +5,6 @@ class SSD {
 
   unsigned char a, b, c, d, e, f, g, dp;
   unsigned char disp_pins[7];
-  const int COM_ANODE = 1;
-  const int COM_CATHODE = 0;
   int type;
 
   // This is the Product of Sum form of the
@@ -34,6 +32,9 @@ class SSD {
 
 public:
   SSD(int _a, int _b, int _c, int _d, int _e, int _f, int _g);
+
+  static const int COM_ANODE = 0;
+  static const int COM_CATHODE = 1;
 
   void reset(); // Resets the SSDisplay
 
